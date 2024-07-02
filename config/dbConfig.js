@@ -1,6 +1,6 @@
 var fire = require("firebase-admin");
 
-var serviceAccount = require("../db-recepku-firebase-adminsdk-s0rfd-aa2d967659.json");
+var serviceAccount = require("../db-recepku-firebase-adminsdk-s0rfd-037888428b.json");
 
 fire.initializeApp({
   credential: fire.credential.cert(serviceAccount)
